@@ -1,0 +1,18 @@
+@media(max-width: 560px){
+    .header-burger .fas.fa-bars{
+        display: block;
+        font-size: 30px;
+    }
+    
+    .menu {
+        display: none;
+        
+    }
+    .fas.fa-times{
+        display: block;
+        color: black;
+        font-size: 40px;
+        margin-left: 140px;
+    } 
+
+}

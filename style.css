@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+ li{
+    list-style: none;
+}
+.header {
+    
+}
+.header .container {
+    background-color: #555;
+    width: 100%;
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 30px 90px;
+ 
+    font-family: sans-serif;
+   
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 18px;
+    
+   
+    color: white;
+}
+.menu a{
+    color: white;
+}
+.header .container .fh1 {
+    font-size: 30px;
+ 
+}
+
+.header-burger .fas{
+    display: none;
+}
+.mobile-menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+.mobile-menu.active {
+    display: flex;
+}
+
+.mobile-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px 0;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.buttons {
+  background: aqua;  
+}
+.buttons .container button{
+    outline: none;
+    border: 0;
+    background: none;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.buttons .container .red {
+    background: red;
+    box-shadow: 0px 1px 54px -4px rgba(255, 0, 0, 0.58);
+}
+.buttons .container .black {
+    background: black;
+    box-shadow: 0px 1px 54px -4px black;
+    color: white;
+}
+.buttons .container .green {
+    background: green;
+    box-shadow: 0px 1px 54px -4px green;
+    
+}
+.buttons .container .yellow {
+    background: yellow;
+    box-shadow: 0px 1px 54px -4px yellow;
+    color: red;
+    
+}
+
+
+
+.about .container{
+    height: 700px;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background: aqua;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.contact .container{
+    height: 700px;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background: red;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.ws .container{
+    height: 700px;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background: green;
+    font-size: 30px;
+    font-family: sans-serif;
+}
